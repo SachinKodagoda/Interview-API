@@ -1,0 +1,8 @@
+.container {
+  background: #feee00;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+}
