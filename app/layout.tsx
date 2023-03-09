@@ -1,5 +1,4 @@
 import { Catamaran } from "@next/font/google";
-import Header from "./components/header";
 import "./globals.css";
 
 export const metadata = {
@@ -19,10 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={catamaran.className}>
-      <body>
-        <Header />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

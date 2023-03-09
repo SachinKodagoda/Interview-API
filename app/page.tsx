@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Header from "./components/header";
 import Marking from "./components/marking";
 import Task from "./components/task";
 import styles from "./page.module.css";
@@ -9,6 +10,7 @@ export default function Home() {
   const [imageName, setImageName] = useState<"home" | "cart">("home");
   return (
     <main className={styles.main}>
+      <Header />
       <section className={styles.section_body}>
         <section className={styles.description_section}>
           <p className={styles.description}>
