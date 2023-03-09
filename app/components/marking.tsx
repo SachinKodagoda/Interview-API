@@ -12,15 +12,51 @@ export default function Marking() {
         <table className={styles.mark_table}>
           <tbody>
             <tr>
-              <td>Scenario</td>
-              <td>xddd</td>
+              <td>Expected Scenarios</td>
+              <td>Marks</td>
             </tr>
             <tr>
-              <td>Scenario</td>
-              <td>xddd</td>
+              <td>Fulfillment of Expected Functionality</td>
+              <td>50 (Max)</td>
+            </tr>
+            <tr>
+              <td>UX/UI Implementation</td>
+              <td>25 (Max)</td>
+            </tr>
+            <tr>
+              <td>Using Best Coding Practices</td>
+              <td>10 (Max)</td>
+            </tr>
+            <tr>
+              <td>
+                (Optional) One Or Many <u>Value Added Features</u>{" "}
+                <span className={styles.star}>*</span>
+              </td>
+              <td>15+</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>100+</td>
             </tr>
           </tbody>
         </table>
+        <div className={styles.total_explanation}>
+          If you get <b>70+</b> marks, you will be considered for the next
+          round.
+        </div>
+        <div className={styles.value_added}>
+          <u>Value Added Features</u> <span className={styles.star}>*</span>
+          <ul className={styles.value_added_li}>
+            <li>Using NextJs 13+ Features</li>
+            <li>Global State Management</li>
+            <li>Using Custom Hooks</li>
+            <li>Using TypeScript</li>
+            <li>Using ES6+ Features</li>
+            <li>Enhanced UX/UI or Animations</li>
+            <li>Deploying to Vercel or Other cloud platform</li>
+            <li>End to End Testing</li>
+          </ul>
+        </div>
       </div>
     </main>
   );

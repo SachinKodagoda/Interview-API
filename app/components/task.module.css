@@ -35,5 +35,6 @@
 
 .cart_item {
   text-decoration: underline;
+  text-underline-offset: 0.2em;
   color: #0d009f;
 }

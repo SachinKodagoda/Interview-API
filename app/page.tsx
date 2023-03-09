@@ -30,7 +30,7 @@ export default function Home() {
         </section>
         <picture className={styles.picture_tag}>
           <img
-            src="/images/home.png"
+            src={`/images/${imageName}.jpg`}
             alt="home page"
             className={styles.home_page_img}
           />

@@ -1,7 +1,11 @@
+.container {
+  font-size: 1.2rem;
+  text-underline-offset: 0.2em;
+}
+
 .marking {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.2rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -22,11 +26,23 @@
   padding: 8px;
 }
 
-/* .mark_table tr:nth-child(even) {
-  background-color: red;
-} */
-
 .mark_table tr:nth-child(1) {
   background-color: #f1f1f1;
   font-weight: 700;
+}
+.mark_table tr:last-child {
+  font-weight: 700;
+}
+
+.star {
+  color: #ff0000;
+  font-weight: 900;
+}
+
+.total_explanation {
+  padding: 1rem 0 0.5rem;
+}
+
+.value_added_li {
+  padding: 0 1rem;
 }
