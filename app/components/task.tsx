@@ -27,7 +27,7 @@ export default function Task({ imageName, setImageName }: TProps) {
               setImageName((a) => (a === "home" ? "cart" : "home"));
             }}
           >
-            {imageName === "home" ? "Cart" : "Home"}
+            {imageName === "home" ? "Home" : "Cart"}
           </button>
           ) to switch between the home page and the Add-To-Cart Modal{" "}
         </div>
