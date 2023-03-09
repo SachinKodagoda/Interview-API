@@ -27,10 +27,6 @@
   font-style: normal;
 }
 
-.instructions {
-  font-size: 1.2rem;
-}
-
 .pages {
   flex: none;
   position: relative;
@@ -81,33 +77,4 @@
   .picture_tag {
     width: 50%;
   }
-}
-
-.topic {
-  font-weight: 600;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.bold {
-  font-weight: 600;
-}
-
-.topic_desc {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.5rem;
-}
-
-.cart_item {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 0.75em;
-}
-
-.cart_item {
-  text-decoration: underline;
-  color: #0d009f;
 }

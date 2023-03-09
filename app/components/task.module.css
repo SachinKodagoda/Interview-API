@@ -1,0 +1,38 @@
+.instructions {
+  font-size: 1.2rem;
+}
+
+.topic {
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topic_desc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+}
+
+.change_view {
+  all: unset;
+  padding: 0.05rem 1rem;
+  cursor: pointer;
+  border: 1px solid #111;
+  border-radius: 200px;
+  background-color: #820000;
+  color: #fff;
+}
+
+.cart_item {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0.75em;
+}
+
+.cart_item {
+  text-decoration: underline;
+  color: #0d009f;
+}

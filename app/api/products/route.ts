@@ -5,6 +5,7 @@ export async function GET(request: Request) {
     products: [
       {
         id: "1",
+        type: "electronic",
         name: "PlayStation 5 Console (Disc Version) With Controller",
         image:
           "https://f.nooncdn.com/p/v1669724765/N40633047A_1.jpg?format=avif&width=400",
@@ -16,6 +17,7 @@ export async function GET(request: Request) {
         rating: 4.5,
         reviewCount: 1847,
         isABestSeller: true,
+        isANewArrival: true,
       },
     ],
   });

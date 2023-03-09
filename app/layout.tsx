@@ -1,6 +1,6 @@
 import { Catamaran } from "@next/font/google";
+import Header from "./components/header";
 import "./globals.css";
-import Header from "./header";
 
 export const metadata = {
   title: "Create Next App",
