@@ -31,13 +31,15 @@ export default function Home() {
             <Task imageName={imageName} setImageName={setImageName} />
             <Marking />
           </section>
-          <picture className={styles.picture_tag}>
-            <img
-              src={`/images/${imageName}.jpg`}
-              alt="home page"
-              className={styles.home_page_img}
-            />
-          </picture>
+          <section className={styles.description_right}>
+            <picture className={styles.picture_tag}>
+              <img
+                src={`/images/${imageName}.jpg`}
+                alt="home page"
+                className={styles.home_page_img}
+              />
+            </picture>
+          </section>
         </section>
       </main>
     </>

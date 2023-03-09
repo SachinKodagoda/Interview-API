@@ -64,24 +64,32 @@
   height: auto;
   display: block;
   flex: none;
-  background-color: #f1f1f1;
+  display: block;
+}
+
+.description_right {
+  width: 100%;
+  height: auto;
+  display: block;
+  flex: none;
+  background: #f1f1f1;
+  padding: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .picture_tag {
+  .description_right {
     width: 40%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .picture_tag {
+  .description_right {
     width: 45%;
-    height: 100vh;
   }
 }
 
 @media only screen and (min-width: 1400px) {
-  .picture_tag {
+  .description_right {
     width: 50%;
   }
 }
