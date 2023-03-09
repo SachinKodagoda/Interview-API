@@ -64,6 +64,7 @@
   height: auto;
   display: block;
   flex: none;
+  background-color: #f1f1f1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -75,6 +76,7 @@
 @media only screen and (min-width: 1024px) {
   .picture_tag {
     width: 45%;
+    height: 100vh;
   }
 }
 
