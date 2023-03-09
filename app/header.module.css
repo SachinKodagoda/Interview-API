@@ -5,4 +5,20 @@
   font-weight: 600;
   position: relative;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 478px) {
+  .container {
+    justify-content: space-between;
+  }
+}
+
+.container {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
 }

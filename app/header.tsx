@@ -10,6 +10,7 @@ export default function Header() {
         width={87}
         height={24}
       />
+      Front-End Engineer @ noon.com
     </main>
   );
 }
