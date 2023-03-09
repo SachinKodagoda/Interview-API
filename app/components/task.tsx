@@ -18,7 +18,8 @@ export default function Task({ imageName, setImageName }: TProps) {
         <div className={styles.desc_item}>
           Create a single page <b>responsive</b> e-commerce app using{" "}
           <b>NextJS</b>. You can use the image provided as a very simple
-          guideline, and the rest is up to you. Click here to switch Image into{" "}
+          guideline, and the rest is up to you. Click here to switch the image
+          into{" "}
           <button
             type="button"
             className={styles.change_view}
@@ -46,12 +47,12 @@ export default function Task({ imageName, setImageName }: TProps) {
         </div>
         <div className={styles.item_nr}>3.</div>
         <div className={styles.desc_item}>
-          The backend should be simple and built with NodeJS, and it could be
-          hosted elsewhere or included in the same app{" "}
+          The backend should be simple and built with <b>NodeJS</b>, and it
+          could be hosted elsewhere or included in the same app{" "}
           <b>(hint: NextJS API Routes)</b>. The backend should only store{" "}
-          <b>wish-list</b>, <b>product</b> and <b>cart</b> data. Don&apos;t
-          bother with user logins - this is a very sad one-user system. The{" "}
-          <b>product data</b> Structure can be found{" "}
+          <b>cart</b> data. Don&apos;t bother with user logins - this is a very
+          sad <b>one-user</b> system. The <b>product data</b> Structure can be
+          found{" "}
           <a href="/api/products" target="_blank" className={styles.cart_item}>
             here
           </a>
@@ -63,25 +64,37 @@ export default function Task({ imageName, setImageName }: TProps) {
           it, how it was created, and any additional information.{" "}
           <b>(Remember - documentation is your friend)</b>
         </div>
-        <div className={styles.item_nr}>6.</div>
+        <div className={styles.item_nr}>5.</div>
         <div className={styles.desc_item}>
-          Improve the user interface so that it looks professional and best
-          represents your knowledge. Do a proper breakdown of components.
+          Do a proper breakdown of components and improve the user interface so
+          that it looks professional and best represents your knowledge.
         </div>
         <div className={styles.item_nr}>6.</div>
         <div className={styles.desc_item}>
           (Optional) Use <b>TypeScript</b> to keep things strict and <b>ES6</b>{" "}
           syntax where appropriate.
         </div>
-        <div className={styles.item_nr}>6.</div>
+        <div className={styles.item_nr}>7.</div>
         <div className={styles.desc_item}>
           Ignore the functionality of links (name, tags, wishlist) but style
           them appropriately.
         </div>
-        <div className={styles.item_nr}>5.</div>
+        <div className={styles.item_nr}>8.</div>
         <div className={styles.desc_item}>
           We are giving you <b>one week</b> to complete this, but if you need
           more time, please let us know via email.
+        </div>
+        <div className={styles.item_nr}>9.</div>
+        <div className={styles.desc_item}>
+          <b>Image Resources</b> can be found{" "}
+          <a href="/api/products" target="_blank" className={styles.cart_item}>
+            here
+          </a>
+          . <b>Figma</b> file can be found{" "}
+          <a href="/api/products" target="_blank" className={styles.cart_item}>
+            here
+          </a>
+          .
         </div>
       </div>
     </div>

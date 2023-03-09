@@ -1,0 +1,32 @@
+.marking {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mark_table_ctr {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.mark_table tr,
+.mark_table th {
+  border: 1px solid #111;
+  padding: 8px;
+}
+.mark_table td {
+  padding: 8px;
+}
+
+/* .mark_table tr:nth-child(even) {
+  background-color: red;
+} */
+
+.mark_table tr:nth-child(1) {
+  background-color: #f1f1f1;
+  font-weight: 700;
+}
