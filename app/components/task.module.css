@@ -25,6 +25,10 @@
   border-radius: 200px;
   background-color: #820000;
   color: #fff;
+  min-width: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cart_item {
