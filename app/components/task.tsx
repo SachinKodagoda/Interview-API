@@ -35,7 +35,7 @@ export default function Task({ imageName, setImageName }: TProps) {
         <div className={styles.desc_item}>
           In terms of functionality, A user should be able to add <b>one</b> or{" "}
           <b>more</b> items into his cart by clicking the{" "}
-          <b>&quot;Add to Cart&quot;</b> button ({" "}
+          <b>&quot;Add to Cart&quot;</b> button (
           <Image
             src="/images/add_to_cart.png"
             alt=""
