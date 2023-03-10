@@ -18,6 +18,7 @@ export async function GET(request: Request) {
         reviewCount: 1857,
         isABestSeller: true,
         isANewArrival: true,
+        isExpress: true,
       },
       {
         id: "2",
@@ -34,6 +35,7 @@ export async function GET(request: Request) {
         reviewCount: 750,
         isABestSeller: true,
         isANewArrival: true,
+        isExpress: true,
       },
       {
         id: "3",
@@ -50,6 +52,7 @@ export async function GET(request: Request) {
         reviewCount: 255,
         isABestSeller: true,
         isANewArrival: true,
+        isExpress: true,
       },
       {
         id: "4",
@@ -66,6 +69,7 @@ export async function GET(request: Request) {
         reviewCount: 5475,
         isABestSeller: true,
         isANewArrival: true,
+        isExpress: true,
       },
       {
         id: "5",
@@ -82,6 +86,7 @@ export async function GET(request: Request) {
         reviewCount: 155,
         isABestSeller: false,
         isANewArrival: false,
+        isExpress: true,
       },
       {
         id: "6",
@@ -98,6 +103,7 @@ export async function GET(request: Request) {
         reviewCount: 350,
         isABestSeller: false,
         isANewArrival: false,
+        isExpress: true,
       },
       {
         id: "7",
@@ -114,6 +120,7 @@ export async function GET(request: Request) {
         reviewCount: 38,
         isABestSeller: false,
         isANewArrival: false,
+        isExpress: true,
       },
       {
         id: "8",
@@ -130,6 +137,7 @@ export async function GET(request: Request) {
         reviewCount: 94,
         isABestSeller: false,
         isANewArrival: false,
+        isExpress: true,
       },
       {
         id: "9",
@@ -146,6 +154,7 @@ export async function GET(request: Request) {
         reviewCount: 9,
         isABestSeller: false,
         isANewArrival: false,
+        isExpress: true,
       },
     ],
   });
