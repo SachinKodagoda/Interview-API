@@ -38,7 +38,9 @@ export default function Marking() {
           round.
         </div>
         <div className={styles.value_added}>
-          <u>Optional points to demonstrate familiarity</u>
+          <u>
+            <b>(Optional) points to demonstrate familiarity</b>
+          </u>
           <ul className={styles.value_added_li}>
             <li>Using NextJs 13+ Features</li>
             <li>Global State Management</li>

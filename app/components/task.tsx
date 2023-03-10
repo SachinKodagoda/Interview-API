@@ -18,8 +18,10 @@ export default function Task({ imageName, setImageName }: TProps) {
         <div className={styles.item_nr}>1.</div>
         <div className={styles.desc_item}>
           You have to create a <b>responsive e-commerce</b> app using{" "}
-          <b>NextJs</b>. It should include a <b>Home page</b> and{" "}
-          <b>Add to Cart Modal</b>. Click here (
+          <b>NextJs</b> which includes a <b>Home page</b> and{" "}
+          <b>Add to Cart Modal</b>. We&apos;ve included some sample UIs for your
+          reference. <br />
+          Click here (
           <button
             type="button"
             className={styles.change_view}
@@ -29,7 +31,8 @@ export default function Task({ imageName, setImageName }: TProps) {
           >
             {imageName === "home" ? "Home" : "Cart"}
           </button>
-          ) to switch between the home page and the Add-To-Cart Modal{" "}
+          ) to switch between the <b>home page</b> and the{" "}
+          <b>Add to Cart Modal</b>{" "}
         </div>
         <div className={styles.item_nr}>2.</div>
         <div className={styles.desc_item}>
@@ -60,7 +63,7 @@ export default function Task({ imageName, setImageName }: TProps) {
           <b>(hint: NextJS API Routes)</b>. The backend should only store{" "}
           <b>cart</b> data. Don&apos;t be concerned about user logins because
           this is a very simple <b>one-user</b> system. The <b>product data</b>{" "}
-          Structure can be found{" "}
+          API can be found{" "}
           <Link
             href="/api/products"
             className={styles.cart_item}
