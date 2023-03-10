@@ -29,7 +29,7 @@ export default function Marking() {
             </tr>
             <tr>
               <td>
-                (Optional) One Or Many <u>Value Added Features</u>{" "}
+                <b>(Optional)</b> One Or Many <u>Value Added Features</u>{" "}
                 <span className={styles.star}>*</span>
               </td>
               <td>15+</td>
