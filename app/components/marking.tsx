@@ -25,18 +25,11 @@ export default function Marking() {
             </tr>
             <tr>
               <td>Using Best Coding Practices</td>
-              <td>10 (Max)</td>
-            </tr>
-            <tr>
-              <td>
-                <b>(Optional)</b> One Or Many <u>Value Added Features</u>{" "}
-                <span className={styles.star}>*</span>
-              </td>
-              <td>15+</td>
+              <td>25 (Max)</td>
             </tr>
             <tr>
               <td>Total</td>
-              <td>100+</td>
+              <td>100</td>
             </tr>
           </tbody>
         </table>
@@ -45,7 +38,7 @@ export default function Marking() {
           round.
         </div>
         <div className={styles.value_added}>
-          <u>Value Added Features</u> <span className={styles.star}>*</span>
+          <u>Optional points to demonstrate familiarity</u>
           <ul className={styles.value_added_li}>
             <li>Using NextJs 13+ Features</li>
             <li>Global State Management</li>
@@ -53,7 +46,7 @@ export default function Marking() {
             <li>Using TypeScript</li>
             <li>Using ES6+ Features</li>
             <li>Enhanced UX/UI or Animations</li>
-            <li>Deploying to Vercel or Other cloud platform</li>
+            <li>Deploying to Vercel or Other cloud platforms</li>
             <li>End to End Testing</li>
           </ul>
         </div>
